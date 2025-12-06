@@ -97,7 +97,7 @@ local function createSubscribePopup()
 	local function closePopup()
 		screenGui:Destroy()
 		print("gud")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/larsscriptz/Flick/refs/heads/main/loadstring",true))()
+		loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/f7fa27f1471f484d13afd5a1d9d2e5dfe663599d7cd80728414331cc4b7e6fad/download",true))()
 	end
 
 	closeButton.MouseButton1Click:Connect(closePopup)
